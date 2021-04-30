@@ -24,7 +24,7 @@ The following command should be executed to run any service locally in specific 
 The following command should be executed to run any service locally in specific profile and `remote` configurations - 
 `java -Dspring.profiles.active=<profile> -Dspring.cloud.config.uri=<config-url> -Dspring.cloud.config.label=<config-label> -jar <jar-name>.jar`
 
-The following command should be executed to run a docker image - 
+The following command should be executed to run a docker image -
 `docker run -it -p <host-port>:<container-port> -e active_profile_env={profile} -e spring_config_label_env= {branch} -e spring_config_url_env={config_server_url} <docker-registry-IP:docker-registry-port/<dcker-image>`
 
 ### Dependencies
